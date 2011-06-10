@@ -1,0 +1,161 @@
+body{ 
+  width:       960px; 
+  margin:      auto;
+  font-family: 'Bangers', arial, serif;
+}
+
+a{
+  text-decoration: none;
+  color:           #000;
+}
+
+em{
+  font-style: normal;
+}
+
+section{
+  padding-top: 200px;
+  width:       650px;
+  margin:      auto;
+}
+
+/* NAV */
+
+nav a{
+  float:    left;
+  height:   125px;
+  width:    35px;
+  position: relative;
+}
+
+.block{
+  position:     absolute;
+  bottom:       0px;
+  float:        left;
+  margin-left:  5px;
+  width:        30px;
+  background:   #000;
+  
+  -webkit-transition: height 1s ease-out, background-color 1s ease-out;
+  -moz-transition:    height 1s ease-out, background-color 1s ease-out; 
+  -o-transition:      height 1s ease-out, background-color 1s ease-out;  
+  transition:         height 1s ease-out, background-color 1s ease-out;
+}
+
+#first-block{
+  height: 45px;
+}
+
+a:hover #first-block{
+  height:           125px;
+  background-color: #B22222;
+}
+
+#second-block{
+  height:      105px;
+}
+
+a:hover #second-block{
+  height:           125px;
+  background-color: green;
+}
+
+#third-block{
+  height:      85px;
+}
+
+a:hover #third-block{
+  height:           125px;
+  background-color: navy;
+}
+
+#fourth-block{
+  height:      120px;
+}
+
+a:hover #fourth-block{
+  height:           125px;
+  background-color: gold;
+}
+
+/* CONTENT */
+
+section#main{
+  height: 130px;
+}
+
+section#main article{ 
+  float:       left; 
+  width:       502px;
+  font-size:   2em;
+}
+
+section#main article#who em{
+  color: 	#B22222;
+}
+
+section#main article#my_way em{
+  color: green;
+}
+
+section#main article#my_network em{
+  color: navy;
+}
+
+section#main article#my_blog em{
+  color: gold;
+}
+
+article.content{
+  position:         absolute;
+  margin-left:      150px;
+  background-color: white;
+}
+
+article.hidden{
+  z-index: -1;
+}
+
+article.default{
+  z-index: 1;
+}
+
+article.content:target{
+  z-index: 5;
+}
+
+article.current{
+  z-index: 5;
+}
+
+/* CONTACT ARTICLE */
+
+section#contact{
+  padding-top: 10px;
+}
+section#contact p{
+  display: inline;
+}
+
+section#contact a{
+  display:         inline;
+  vertical-align:  bottom;
+  font-size:       1.2em;
+  margin-right:    20px;
+  line-height:     24px;
+  
+  -webkit-transition: color 1s ease-out;
+  -moz-transition:    color 1s ease-out; 
+  -o-transition:      color 1s ease-out;  
+  transition:         color 1s ease-out;
+}
+
+section#contact a:hover{
+  color: #666;
+}
+
+section#contact img{
+  margin-top:   5px;
+  width:        24px;
+  margin-right: 3px;
+}
