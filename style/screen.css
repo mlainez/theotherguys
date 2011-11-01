@@ -1,5 +1,5 @@
-body{ 
-  width:       960px; 
+body{
+  width:       960px;
   margin:      auto;
   font-family: 'Bangers', arial, serif;
 }
@@ -35,10 +35,10 @@ nav a{
   margin-left:  5px;
   width:        30px;
   background:   #000;
-  
+
   -webkit-transition: height 1s ease-out, background-color 1s ease-out;
-  -moz-transition:    height 1s ease-out, background-color 1s ease-out; 
-  -o-transition:      height 1s ease-out, background-color 1s ease-out;  
+  -moz-transition:    height 1s ease-out, background-color 1s ease-out;
+  -o-transition:      height 1s ease-out, background-color 1s ease-out;
   transition:         height 1s ease-out, background-color 1s ease-out;
 }
 
@@ -84,8 +84,8 @@ section#main{
   height: 130px;
 }
 
-section#main article{ 
-  float:       left; 
+section#main article{
+  float:       left;
   width:       502px;
   font-size:   2em;
 }
@@ -103,6 +103,10 @@ section#main article#my_network em{
 }
 
 section#main article#my_blog em{
+  color: gold;
+}
+
+article#my_blog a{
   color: gold;
 }
 
@@ -141,12 +145,12 @@ section#contact a{
   display:         inline;
   vertical-align:  bottom;
   font-size:       1.2em;
-  margin-right:    20px;
+  margin-right:    22px;
   line-height:     24px;
-  
+
   -webkit-transition: color 1s ease-out;
-  -moz-transition:    color 1s ease-out; 
-  -o-transition:      color 1s ease-out;  
+  -moz-transition:    color 1s ease-out;
+  -o-transition:      color 1s ease-out;
   transition:         color 1s ease-out;
 }
 
